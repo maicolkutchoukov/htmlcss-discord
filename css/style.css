@@ -1,7 +1,7 @@
 /* CLASSI COLORI */
 
 .aqua{
-    background-color: #ADD8E6;
+    background-color: #255EE9
 }
 
 .yellow{
@@ -29,7 +29,7 @@
 }
 
 .grey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .black{
@@ -66,61 +66,162 @@
 
 ul li{
     display: inline-block;
+    padding:0 10px;
 }
 
+ul li > *{
+    text-decoration: none;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
 /* HEADER */
 
-.header-top{
+.header-top > .container{
     display: flex;
-    padding:8px;
-    width: 75%;
-    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
 }
 
-.header-bottom{    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
+header{     
+    background-image: url(/img/jumbo.png);
+    background-size: 100%;
+    min-height: 550px;
 }
 
 .header-bottom-container{
-    width: 50%;
-    min-height: 230px;
-    /* margin:30px;     */
+    padding: 20px 50px;
 }
 
+.header-bottom-container > *{
+    text-align: center;
+}
+
+h1, p{
+    color: white;
+    margin-bottom:30px;
+
+}
+
+h1{
+    font-size: 45px;
+}
+
+.header-text{
+    font-size: 30px;
+}
+
+nav > ul > li> *{
+    /* padding:10px 10px; */
+    color: white;
+    font-size:16px;
+    
+}
+
+.button{
+    display: inline-block;
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.button-black{
+    background-color: black;
+    color: white;
+    border: 15px solid black;
+}
+
+.button-mac{
+    color:white;
+    background-color: #7289DA;
+    border: 15px solid #7289DA;
+    margin: 25px 0;
+}
+
+i{
+    font-size: 20px;
+}
 /* .header-top > *, .header-bottom > *, section > *, .my-col1, .col, .footer2 > div > div, .footer2 > *{
     border: 1px dashed black;
 
 }
 */
 
+img{
+    width:100px;
+
+}
+
 .box{
     border: 1px dashed black;
 }
 
 .logo, .link, .login{
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
-.logo, .login{
-    width: 25%;
+nav > ul{
+    padding-top: 15px;
+}
+
+.logo > img{
+    width:100%
+}
+
+.logo{
+    width: 15%
 }
 
 .login{
     text-align: right;
+    width: 15%;
 }
 
 .link{
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
+/* FINE HEADER ALLELUIA */
+
 .first-row, .second-row, .third-row, .four-row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.first-row > .col1 > img {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    padding:10px;
+}
+
+.row-txt{
+    font-size:medium;
+    color: black;
+    padding: 15px;
+    margin-top:5px;
+}
+
+.row-image{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 section{
@@ -128,7 +229,7 @@ section{
 }
 
 .col1, .col2{
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .col1{
@@ -141,7 +242,7 @@ section{
 
 .col3{
     width: 75%;
-    min-height: 800px;
+    text-align: center;
 }
 
 .footer1{
