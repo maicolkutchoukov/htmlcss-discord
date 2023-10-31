@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Discord</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -44,7 +47,7 @@
                             <i class="fa-solid fa-arrow-down"></i>
                             Scarica per Mac
                         </a>
-                        <a class="button button-black" href="#">Apri discord nel tuo browser</a>
+                        <a class="button button-black" href="">Apri discord nel tuo browser</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +57,7 @@
         <!-- INIZIO MAIN -->
         <main>
             <!-- PRIMA SEZIONE -->
-            <section class="first-row white">
+            <section class="my-row">
                 <div class="col1">
                     <img class="row-image" src="img/item1.svg" alt="Item-1">
                 </div>
@@ -67,19 +70,20 @@
                 </div>
             </section>
             <!-- SECONDA SEZIONE -->
-            <section class="second-row grey">
+            <section class="my-row grey">
                 <div class="col2">
                     <h2>Dove è facile trovarsi</h2>
                     <p class="row-txt">Mettiti comodo in un canale vocale quando hai tempo. 
                         Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare.
                     </p>
-                </div>
-                <div class="col1 col1-img">
+                    </div>
+                    <div class="col1 col1-img">
                     <img class="row-image" src="img/item2.svg" alt="Item-2">
-                </div>
+                    </div>
+                </div>    
             </section>
             <!-- TERZA SEZIONE -->
-            <section class="third-row white">
+            <section class="my-row white">
                 <div class="col1">
                     <img class="row-image" src="img/item3.svg" alt="Item-3">
                 </div>
@@ -91,7 +95,7 @@
                 </div>
             </section>
             <!-- QUARTA SEZIONE -->
-            <section class="four-row grey">
+            <section class="my-row grey">
                 <div class="col3">
                     <h2>Tecnologia affidabile per tenersi in contatto</h2>
                     <p class="row-txt">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza
@@ -131,46 +135,45 @@
                     <div class="col">
                         <p>Prodotto</p>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perchè Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
                         </ul>
                     </div>
                     <div class="col">
                         <p>Compagnia</p>
                         <ul>
-                            <li>Chi siamo</li>
-                            <li>Lavora con noi</li>
-                            <li>Marchio</li>
-                            <li>Redazione</li>
-                            <li>Negozio</li>
+                            <li><a href="">Chi siamo</a></li>
+                            <li><a href="">Lavora con noi</a></li>
+                            <li><a href="">Marchio</a></li>
+                            <li><a href="">Redazione</a></li>
+                            <li><a href="">Negozio</a></li>
                         </ul>
                     </div>
                     <div class="col">
                         <p>Risorse</p>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perchè Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
-                            <li>Scarica</li>
-                            <li>Perchè Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li><li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
                         </ul>
                     </div>
                     <div class="col">
                         <p>Prodotto</p>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perchè Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
                         </ul></div>                    
                     </div>
                 </div> 
@@ -183,7 +186,7 @@
                     <div class="logo2">
                         <img src="img/logo.svg" alt="">
                     </div>
-                    <div class="button button-log">
+                    <div id="button-log" class="button">
                         <a href="">Registrati</a>
                     </div>
                 </div>

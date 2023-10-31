@@ -62,6 +62,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ul li{
@@ -79,6 +80,7 @@ ul li > *{
     width: 75%;
     margin: 0 auto;
 }
+
 /* HEADER */
 
 .header-top > .container{
@@ -88,7 +90,7 @@ ul li > *{
 }
 
 header{     
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 550px;
     padding-top: 20px;
@@ -126,11 +128,8 @@ nav > ul > * {
 
 .button{
     display: inline-block;
-    /* background-color: white;
-    border: 15px solid white; */
     border-radius: 30px;
     text-decoration: none;
-    /* color: black; */
     font-weight: 600;
     font-size: 20px;
     margin-right: 20px;
@@ -157,12 +156,12 @@ nav > ul > * {
     margin: 25px 0;
 }
 
-.footer2 > div  .button-log{
+#button-log{
     color:white;
     background-color: #7289DA;
     border: 2px solid #7289DA;
+    margin-right: 0;
     text-decoration: none;
-    /* margin: 25px 0; */
 }
 
 i{
@@ -208,14 +207,14 @@ nav > ul{
 
 /* INIZIO MAIN */
 
-.first-row, .second-row, .third-row, .four-row{
+.my-row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.first-row > .col1 > img {
+.my-row > .col1 > img {
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
@@ -236,21 +235,20 @@ h2{
 }
 
 .row-image{
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 100%;    
 }
 
 section{
     padding:20px 0;
 }
 
-.col1, .col2{
-    /* min-height: 500px; */
-}
+/* .col1, .col2{
+    max-width: 500px;
+} */
 
 .col1{
     width: 45%;
+    
 }
 
 .col2{
@@ -263,8 +261,9 @@ section{
 }
 
 .stars{
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: contain;
+    background-position: center;
     background-position: 50%;
     line-height: 40px;
     width: 70%;
@@ -325,7 +324,7 @@ h4{
 
 .my-col2 > div > p{
     color:#7289DA;
-    padding: 10px 0;
+    padding: 10px 10px;
     margin-bottom: 0;
     font-weight: bold;
 }
@@ -362,4 +361,10 @@ hr{
 
 .footer2 > div > div{
     padding: 5px;
+}
+
+.wave{
+    background-image: url(/img/wave.svg);
+    /* background-color: lightgray; */
+    backface-visibility: visible;
 }
