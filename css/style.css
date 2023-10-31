@@ -87,7 +87,7 @@ ul li > *{
 
 header{     
     background-image: url(/img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     min-height: 550px;
 }
 
@@ -148,11 +148,6 @@ nav > ul > li> *{
 i{
     font-size: 20px;
 }
-/* .header-top > *, .header-bottom > *, section > *, .my-col1, .col, .footer2 > div > div, .footer2 > *{
-    border: 1px dashed black;
-
-}
-*/
 
 img{
     width:100px;
@@ -190,6 +185,8 @@ nav > ul{
 }
 
 /* FINE HEADER ALLELUIA */
+
+/* INIZIO MAIN */
 
 .first-row, .second-row, .third-row, .four-row{
     display: flex;
@@ -245,6 +242,19 @@ section{
     text-align: center;
 }
 
+.stars{
+    background-image: url(/img/stars.svg);
+    background-size: contain;
+    background-position: 50%;
+    line-height: 40px;
+    width: 70%;
+    margin:0 auto;
+}
+
+/* FINE MAIN */
+
+
+/* INIZIO FOOTER */
 .footer1{
     border-bottom: 1px solid white;
     padding: 10px 0;
