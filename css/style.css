@@ -64,13 +64,15 @@
     box-sizing: border-box;
 }
 
-ul li{
+/* ul li{
     display: inline-block;
     padding:0 10px;
-}
+} */
 
 ul li > *{
     text-decoration: none;
+    color:white;
+    padding:0 10px;
 }
 
 .container{
@@ -89,6 +91,7 @@ header{
     background-image: url(/img/jumbo.png);
     background-size: cover;
     min-height: 550px;
+    padding-top: 20px;
 }
 
 .header-bottom-container{
@@ -113,23 +116,32 @@ h1{
     font-size: 30px;
 }
 
-nav > ul > li> *{
+nav > ul > * {
     /* padding:10px 10px; */
     color: white;
     font-size:16px;
+    display: inline-block;
     
 }
 
 .button{
     display: inline-block;
-    background-color: white;
-    border: 15px solid white;
+    /* background-color: white;
+    border: 15px solid white; */
     border-radius: 30px;
     text-decoration: none;
-    color: black;
+    /* color: black; */
     font-weight: 600;
     font-size: 20px;
     margin-right: 20px;
+    text-align: center;
+
+}
+
+.button-white{
+    background-color: white;
+    border: 15px solid white;
+    color: black;
 }
 
 .button-black{
@@ -143,6 +155,14 @@ nav > ul > li> *{
     background-color: #7289DA;
     border: 15px solid #7289DA;
     margin: 25px 0;
+}
+
+.footer2 > div  .button-log{
+    color:white;
+    background-color: #7289DA;
+    border: 2px solid #7289DA;
+    text-decoration: none;
+    /* margin: 25px 0; */
 }
 
 i{
@@ -256,13 +276,41 @@ section{
 
 /* INIZIO FOOTER */
 .footer1{
-    border-bottom: 1px solid white;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .my-col1{
     width:calc((75% / 6) * 2);
-    min-height: 300px;
+    /* min-height: 300px; */
+    padding: 15px;
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #7289DA;
+
+}
+
+.footer-element{
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 15px;
+    margin-bottom:10px;
+    color: white;
+}
+
+.social > * {
+    padding-right: 8px;
+    color: white;
+}
+
+.footer-element > img{
+    width: 15px;
+}
+
+.footer-element > i{
+    font-size:9px;
 }
 
 .col{
@@ -275,9 +323,27 @@ section{
     min-height: 300px;
 }
 
+.my-col2 > div > p{
+    color:#7289DA;
+    padding: 10px 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.my-col2 > div > ul > *{
+    list-style: none;
+    color:white;
+    padding : 5px 0;
+}
+
 .footer1, .my-col2{
     display: flex;
     justify-content: center;
+}
+
+hr{
+    width:75%;
+    margin: 0 auto;
 }
 
 .footer2{
